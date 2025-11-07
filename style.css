@@ -47,10 +47,32 @@ a {
 a:hover {
     color: grey;
     text-decoration: underline;
-    text-underline-offset: 1rem;
+    text-underline-offset: 0.5rem;
     text-decoration-color: rgb(181, 181, 181);
 }
 
 .logo {
     font-size: 2rem;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+#humburger-nav {
+    display: none;
+}
+
+.humburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.humburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
 }

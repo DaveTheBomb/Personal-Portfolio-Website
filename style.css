@@ -127,3 +127,15 @@ a:hover {
     height: 2px;
     transform: rotate(-45deg) translate(10px, -5px);
 }
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}

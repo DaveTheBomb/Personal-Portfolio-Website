@@ -176,6 +176,11 @@ section {
     margin-bottom: center; 
 }
 
+.section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: center; 
+}
+
 .title {
     font-size: 3rem;
     text-align: center;
@@ -236,3 +241,21 @@ section {
 .btn-container {
     gap: 1rem;
 }
+
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, .about-details-container {
+    display: flex;
+}
+
